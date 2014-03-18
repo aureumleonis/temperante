@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Huracan</title>
+  <!--
+  <link href="{{url_for('static', filename='dist/css/bootstrap.css')}}" rel="stylesheet">
+-->
+  {% block extracss %}{% endblock %}
+</head>
+<body>
+  {% block content %}{% endblock %}
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  {% block extrajs %}{% endblock %}
+</body>
+</html>
